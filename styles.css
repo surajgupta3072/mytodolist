@@ -163,6 +163,15 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+    
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 1)
+    );
+    border-radius: 1rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.3);
+    margin:2rem;
 }
 
 .todo-List {
